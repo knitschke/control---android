@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="@string/application_header"
+		android:layout_gravity="center"></TextView>
+	<EditText
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:id="@+id/etResponse"
+		android:hint="@string/third_activity_hint">
+		<requestFocus></requestFocus>
+	</EditText>
+	<EditText
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:id="@+id/etResponse1"
+		android:hint="@string/third2_activity_hint">
+		<requestFocus></requestFocus>
+	</EditText>
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:id="@+id/btnOpenActivity"
+		android:text="@string/button_send_response"></Button>
+
+</LinearLayout>

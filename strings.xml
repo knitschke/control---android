@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CONTROL</string>
+    <string name="application_header">IP/PORT</string>
+    <string name="third_activity_hint">172.24.1.1</string>
+    <string name="third2_activity_hint">1234</string>
+    <string name="button_send_response">NEXT</string>
+
+</resources>
